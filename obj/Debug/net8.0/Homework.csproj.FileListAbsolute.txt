@@ -1,0 +1,14 @@
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\bin\Debug\net8.0\Homework.exe
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\bin\Debug\net8.0\Homework.deps.json
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\bin\Debug\net8.0\Homework.runtimeconfig.json
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\bin\Debug\net8.0\Homework.dll
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\bin\Debug\net8.0\Homework.pdb
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\obj\Debug\net8.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\obj\Debug\net8.0\Homework.AssemblyInfoInputs.cache
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\obj\Debug\net8.0\Homework.AssemblyInfo.cs
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\obj\Debug\net8.0\Homework.csproj.CoreCompileInputs.cache
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\obj\Debug\net8.0\Homework.dll
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\obj\Debug\net8.0\refint\Homework.dll
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\obj\Debug\net8.0\Homework.pdb
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\obj\Debug\net8.0\Homework.genruntimeconfig.cache
+C:\Desktop\Programming_language_С#_(CSharp).Practice\Homework\obj\Debug\net8.0\ref\Homework.dll
