@@ -34,26 +34,42 @@
 /// Значение функции Аккермана для конкретных чисел
 /// </returns>
 
-int FindAckermanFunction(int n, int m)
-{
-    if (n == 0)
-    {
-        return m + 1;
-    }
-    else if (m == 0)
-    {
-        return FindAckermanFunction(n - 1, 1);
-    }
-    else
-    {
-        return FindAckermanFunction(n - 1, FindAckermanFunction(n, m - 1));
-    }
-}
-Console.Write("Введите положительное число n: ");
-int n = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите положительное число m: ");
-int m = Convert.ToInt32(Console.ReadLine());
-int result = FindAckermanFunction(n, m);
-Console.WriteLine($"Значение функции Аккермана для чисел ({n}, {m}) составляет: {result}");
+// int FindAckermanFunction(int n, int m)
+// {
+//     if (n == 0)
+//     {
+//         return m + 1;
+//     }
+//     else if (m == 0)
+//     {
+//         return FindAckermanFunction(n - 1, 1);
+//     }
+//     else
+//     {
+//         return FindAckermanFunction(n - 1, FindAckermanFunction(n, m - 1));
+//     }
+// }
+// Console.Write("Введите положительное число n: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введите положительное число m: ");
+// int m = Convert.ToInt32(Console.ReadLine());
+// int result = FindAckermanFunction(n, m);
+// Console.WriteLine($"Значение функции Аккермана для чисел ({n}, {m}) составляет: {result}");
 
-FindAckermanFunction(n, m);
+// FindAckermanFunction(n, m);
+
+// Задача 3: Задайте произвольный массив. Выведете его элементы, начиная с конца.
+// Использовать рекурсию, не использовать циклы.
+
+// int[] array = { 2, 5, 8, 9, 6, 7 };
+void PrintReverseArray(int[] array, int j)
+{
+    j = array.Length - 1;
+    if (j == 0)
+    {
+        Console.Write(array[j]);
+        return;
+    }
+    Console.Write(array[j] + " ");
+    PrintReverseArray(array, j--);
+}
